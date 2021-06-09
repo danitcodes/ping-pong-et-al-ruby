@@ -19,11 +19,11 @@ This repository is a basic practice exercise working with test-driven developmen
 
 ### Plain English Specs for Ping Pong
 
-1. Print a range of numbers, from 1 to n, where n is the user inputted number.
+1. Create a range of numbers, from 1 to n, where n is the user inputted number.
 
 Expect(n = 15).toEqual(1:15, each number prints on a new line)
 
-This tells me a loop, and or a range() built-in method.
+This tells me a loop, and or a range() built-in method, and a new array.
 
 2. Return ping instead of any num in range divisible by 3.
 

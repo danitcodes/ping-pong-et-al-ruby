@@ -1,5 +1,5 @@
 require('rspec')
-require('title_case')
+require('ping_pong')
 
 describe('#ping_pong') do
   it("returns an array of ascending numbers up to the number entered") do

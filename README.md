@@ -17,6 +17,26 @@ This repository is a basic practice exercise working with test-driven developmen
 |  #1c 	|  Ping Pong 	|  All numbers divisible by 5 are replaced by "pong". 	|
 |  #1d 	|  Ping Pong 	|  All numbers divisible by 3 and 5 are replaced by "ping-pong". 	|
 
+### Plain English Specs for Ping Pong
+
+1. Print a range of numbers, from 1 to n, where n is the user inputted number.
+
+Expect(n = 15).toEqual(1:15, each number prints on a new line)
+
+This tells me a loop, and or a range() built-in method.
+
+2. Return ping instead of any num in range divisible by 3.
+
+Expect(9).toEqual(ping)
+
+3. Return pong instead of any num in range divisible by 5.
+
+Expect(10).toEqual(pong)
+
+4. Return ping-pong instead of any num in range divisible by both 3 and 5 (and move this branch of the conditional to the top of the conditional statement to ensure all branches function properly).
+
+Expect(15).toEqual(ping-pong)
+
 ### Technologies
 
 - Ruby v.2.6.5

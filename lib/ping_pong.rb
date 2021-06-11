@@ -5,9 +5,9 @@ def ping_pong(num)
   new_array = []
   num.times do |x|
     number = x + 1
-    #if (number % 3 == 0) && (number % 5 == 0) # divisible by 3 & 5
-      #new_array.push("ping-pong")
-    if number % 5 == 0
+    if number % 3 == 0 && number % 5 == 0
+      new_array.push("ping-pong")
+    elsif number % 5 == 0
       new_array.push("pong")
     elsif number % 3 == 0
       new_array.push("ping")

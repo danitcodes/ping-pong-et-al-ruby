@@ -22,7 +22,7 @@ def leetspeak(str)
     end
 
     if (string_character == ' ')
-      #      started_new_word = true
+      started_new_word = true
     else
       started_new_word = false
     end

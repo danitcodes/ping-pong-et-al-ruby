@@ -14,4 +14,7 @@ describe('String#leetspeak') do
   it('The letter o to be replaced with 0') do
     expect(leetspeak("oat")).to(eq("0at"))
   end
+  it('The letter O to be replaced with 0') do
+    expect(leetspeak("Oat")).to(eq("0at"))
+  end
 end

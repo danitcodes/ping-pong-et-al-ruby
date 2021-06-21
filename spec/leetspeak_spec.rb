@@ -24,6 +24,6 @@ describe('String#leetspeak') do
     expect(leetspeak("pass")).to(eq("pazz"))
   end
   it('The letter s should be returned as s if it is the first letter of a word') do
-    expect(leetspeak("sass")).to(eq("sazz"))
+    expect(leetspeak("sit")).to(eq("sit"))
   end
 end

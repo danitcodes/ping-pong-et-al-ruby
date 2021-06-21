@@ -11,4 +11,7 @@ describe('String#leetspeak') do
   it('Any non-magic letter should stay the same') do
     expect(leetspeak("bat")).to(eq("bat"))
   end
+  it('The letter o to be replaced with 0') do
+    expect(leetspeak("oat")).to(eq("0at"))
+  end
 end

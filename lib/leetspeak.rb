@@ -10,6 +10,8 @@ def leetspeak(str)
       leet_array.push("0")
     elsif (string_character == "I")
       leet_array.push("1")
+    elsif (string_character == "s")
+      leet_array.push("z")
     else
       leet_array.push(string_character)
     end

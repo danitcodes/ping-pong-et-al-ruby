@@ -23,4 +23,7 @@ describe('String#leetspeak') do
   it('The letter s to be replaced with z') do
     expect(leetspeak("pass")).to(eq("pazz"))
   end
+  it('The letter s should be returned as s if it is the first letter of a word') do
+    expect(leetspeak("sass")).to(eq("sazz"))
+  end
 end

@@ -12,7 +12,7 @@ def leetspeak(str)
     puts string_character.class
     puts string_character
     puts string_character[0] == "e"
-    if string_character[0] == "e"
+    if (string_character[0] == "e") | (string_character[0] == "E")
       leet_array.push(3)
     else
       leet_array.push(string_character)

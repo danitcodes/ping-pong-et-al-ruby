@@ -19,7 +19,7 @@ def leetspeak(str)
     if (string_character == 'e') | (string_character == "E")
       leet_array.push("3")
     else
-      leet_array.push("a")
+      leet_array.push(string_character)
     end
   end
   joined = leet_array.join("")

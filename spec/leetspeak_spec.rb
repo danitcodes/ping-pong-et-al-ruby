@@ -21,9 +21,12 @@ describe('String#leetspeak') do
     expect(leetspeak("Inch")).to(eq("1nch"))
   end
   it('The letter s to be replaced with z') do
-    expect(leetspeak("pass")).to(eq("pazz"))
+    expect(leetspeak("pass ")).to(eq("pasz "))
   end
   it('The letter s should be returned as s if it is the first letter of a word') do
     expect(leetspeak("cat sit")).to(eq("cat sit"))
+  end
+  it('The letter s should be replaced only if its at the end of a word') do
+    expect(leetspeak("bugs sit")).to(eq("bugz sit"))
   end
 end

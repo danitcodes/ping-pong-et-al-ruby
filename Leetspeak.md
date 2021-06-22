@@ -4,10 +4,11 @@ Leetspeak uses an alternative alphabet of numbers and symbols to replace various
 
 Write a Ruby method that converts a string using some of the rules of Leetspeak:
 
-The letter "e" should be replaced with "3".
-The letter "o" should be replaced with "0".
-The capital letter "I" (but not the lower case, "i") should be replaced with "1".
-All instances of "s" should be replaced with "z" UNLESS it is the first letter of the word.
+[x] The letter "e" should be replaced with "3".
+[x] The letter "o" should be replaced with "0".
+[x] The capital letter "I" (but not the lower case, "i") should be replaced with "1".
+[x] All instances of "s" should be replaced with "z" UNLESS it is the first letter of the word.
+
 Here is a sample of input and output
 
 In: "Don't you love these 'String' exercises? I do!"

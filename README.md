@@ -2,13 +2,15 @@
 
 ## By Danielle Thompson
 
-## 6.8.21
+## Initiated 6.8.21. Last updated 6.24.21.
 
 ### Description
 
-This repository is a basic practice exercise working with test-driven development and learning Ruby.
+This repository is a basic practice exercise working with test-driven development and learning basic Ruby syntax.
 
-### User Stories
+One exercise includes writing a method "Ping-Pong" with tests, the details of which you can find in this README via the user stories and specs sections. The second exercise writes a method and tests for converting strings into a simplified form of ["leetspeak"](https://en.wikipedia.org/wiki/Leet). Further information on the instructions I used to inform my leetspeak method can be found in [this Leetspeak](https://github.com/danitcodes/ping-pong-et-al-ruby/blob/main/Leetspeak.md) README.
+
+### Ping Pong User Stories
 
 |   	|   Exercise	|  User Story 	|
 |:-:	|:-:	|:-:	|
